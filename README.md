@@ -21,7 +21,7 @@ to run the app
 | Home with vertical scrolling                                         | Movie Detail                                             | Actor Detail                                        |
 | -------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
 | First screen shown, tapping on "View Movie" will open `Movie Detail` | Tapping on cast profile picture will open `Actor Detail` | Tapping on movie thumbnail will open `Movie Detail` |
-| ![home](screenshot/home.jpg)                                         | ![movie](screenshot/home.jpg)                            | ![actor](screenshot/home.jpg)                       |
+| ![home](screenshot/home.jpg)                                         | ![movie](screenshot/movie_detail.jpg)                    | ![actor](screenshot/actor_detail.jpg)               |
 
 ## Code Infrastructure
 
