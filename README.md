@@ -1,16 +1,28 @@
-# imdb_vertical
+# Vertical Movie Explorer
 
-A new Flutter project.
+## How To Run
 
-## Getting Started
+This app build using `Flutter 3.29.3`, Dart `3.7.2`, DevTools `2.42.3`. To run this app make sure flutter is installed, then execute
 
-This project is a starting point for a Flutter application.
+```
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+to install dependencies, then execute
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+to run the app
+
+## App Features
+
+| Home with vertical scrolling                                         | Movie Detail                                             | Actor Detail                                        |
+| -------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| First screen shown, tapping on "View Movie" will open `Movie Detail` | Tapping on cast profile picture will open `Actor Detail` | Tapping on movie thumbnail will open `Movie Detail` |
+| ![home](screenshot/home.jpg)                                         | ![movie](screenshot/home.jpg)                            | ![actor](screenshot/home.jpg)                       |
+
+## Code Infrastructure
+
+The code infrastructure in this app is using State, which is the simplest out of all, following KISS principle . Widgets are stored inside `lib/features` folder, meanwhile models and services stored inside `lib/data` folder
